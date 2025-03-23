@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: DeepSeek API
+  version: 1.0.0
+  description: API for uploading data, training models, and making predictions
+paths:
+  /api/data/upload:
+    post:
+      summary: Upload data
+      description: Upload JSON, CSV, or text data for processing
+      # Add more details here
+  /api/model/train:
+    post:
+      summary: Train model
+      description: Train the DeepSeek model using uploaded data
+      # Add more details here
+  /api/model/predict:
+    post:
+      summary: Make predictions
+      description: Use the trained model to make predictions
+      # Add more details here

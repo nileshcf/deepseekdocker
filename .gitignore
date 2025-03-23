@@ -1,0 +1,73 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+pnpm-debug.log
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.cache/
+out/
+.next/
+coverage/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# Editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependency directories
+bower_components/
+
+# Compiled files
+*.tsbuildinfo
+*.eslintcache
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.*.yml
+
+# Testing
+coverage/
+jest/
+test-results/
+
+# TypeScript
+*.d.ts
+*.tsbuildinfo
+
+# Logs and OS generated files
+*.log
+*.pid
+*.seed
+*.lock
+*.gz
+
+# macOS
+*.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
